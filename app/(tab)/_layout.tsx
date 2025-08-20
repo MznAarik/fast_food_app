@@ -17,7 +17,7 @@ import React from 'react';
 // export default TabRoot
 
 export default function _layout() {
-    const isAuthenticated = true;
+    const isAuthenticated = false;
 
     if(!isAuthenticated) return <Redirect href='/sign-in' />;
 
