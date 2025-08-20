@@ -45,7 +45,7 @@ const index = () => {
         ListHeaderComponent={() => (
           <View className="flex-between flex-row w-full my-5">
             <View className="flex-start">
-              <Text className='small-bold text-primary'>Deliver To:</Text>
+              <Text className='font-bold text-primary'>Deliver To:</Text>
               <TouchableOpacity className='flex-center flex-row gap-x-1 mt-0.5'>
                 <Text className='paragraph-bold text-black-100'>Nepal</Text>
                 <Image source={images.arrowDown} className='size-3' resizeMode='contain'></Image>
